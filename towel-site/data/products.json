@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Cotton Face Towel",
+      "category": "Face Towels",
+      "material": "100% Combed Cotton",
+      "size": "34×74 cm",
+      "gsm": 400,
+      "description": "Soft and absorbent. Ideal for hotels and home use.",
+      "price": "$0.70 - $0.90 / piece",
+      "moq": "200 pieces",
+      "images": [],
+      "status": "active"
+    },
+    {
+      "name": "Heavyweight Bath Towel",
+      "category": "Bath Towels",
+      "material": "100% Cotton",
+      "size": "70×140 cm",
+      "gsm": 500,
+      "description": "Low-lint hotel grade towel. Logo embroidery available.",
+      "price": "$2.80 - $3.50 / piece",
+      "moq": "100 pieces",
+      "images": [],
+      "status": "active"
+    }
+  ]
+}

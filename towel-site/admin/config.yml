@@ -1,0 +1,56 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME   # ← 改成你的 GitHub 用户名/仓库名
+  branch: main
+
+locale: zh_Hans
+publish_mode: simple
+
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: catalog
+    label: 商品管理
+    files:
+      - name: products
+        label: 商品列表
+        file: data/products.json
+        fields:
+          - label: 商品
+            label_singular: 商品
+            name: products
+            widget: list
+            summary: "{{fields.name}}（{{fields.status}}）"
+            fields:
+              - { label: "Product name 商品名称", name: name, widget: string }
+              - label: "Category 商品类别"
+                name: category
+                widget: select
+                options:
+                  - Bath Towels
+                  - Hand Towels
+                  - Face Towels
+                  - Washcloths
+                  - Beach Towels
+                  - Salon Towels
+                  - Kitchen Towels
+                  - Other
+              - { label: "Material 材质", name: material, widget: string, required: false, hint: "例：100% Cotton" }
+              - { label: "Size 尺寸", name: size, widget: string, required: false, hint: "例：34×74 cm" }
+              - { label: "GSM 克重", name: gsm, widget: number, value_type: int, min: 0, required: false }
+              - { label: "Description 商品描述", name: description, widget: text, required: false }
+              - { label: "Price 参考批发价格", name: price, widget: string, required: false, hint: "例：$0.70 - $0.90 / piece" }
+              - { label: "MOQ 起订量", name: moq, widget: string, required: false, hint: "例：200 pieces" }
+              - label: "Images 商品图片（第一张为封面，可多张）"
+                name: images
+                widget: list
+                required: false
+                field: { label: Image, name: image, widget: image }
+              - label: "Status 状态"
+                name: status
+                widget: select
+                default: active
+                options:
+                  - { label: "上架", value: active }
+                  - { label: "下架", value: inactive }
