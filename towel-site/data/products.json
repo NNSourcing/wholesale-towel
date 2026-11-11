@@ -9,20 +9,22 @@
       "name": "Customizable Cotton Bath Towels",
       "moq": "500",
       "images": [
-        "/images/uploads/微信图片_20260915154916_159_14.jpg"
+        "/images/uploads/微信图片_20260915154916_159_14.jpg",
+        "/images/uploads/331851abf1e15de41bb266c7f389c2.jpg",
+        "/images/uploads/7949c42e778fb5c8bec5121e66adea.jpg"
       ]
     },
     {
       "status": "active",
-      "name": "Cotton Small Printed Towel",
+      "name": "Cotton Printed Towel",
       "category": "Face Towels",
       "size": "35x75",
       "gsm": 120,
       "description": "Available in a wide range of attractive printed patterns, this small-sized cotton towel is suitable for various applications and everyday uses.",
       "moq": "1000",
       "images": [
+        "/images/uploads/微信图片_20260912131023_150_14.jpg",
         "/images/uploads/微信图片_20260912125818_146_14.jpg",
-        "/images/uploads/fe2a50252b266a0cb49392d83458fbfb.jpg",
         "/images/uploads/be5f659da6a17e6595f4182604b4d884.jpg",
         "/images/uploads/b99b820a426cc7dfeb7460c10a8276dc.jpg",
         "/images/uploads/1.jpg",
@@ -35,13 +37,33 @@
     {
       "status": "active",
       "images": [
-        "/images/uploads/微信图片_20260912123813_145_14.jpg"
+        "/images/uploads/微信图片_20260912123813_145_14.jpg",
+        "/images/uploads/img_1331.jpg",
+        "/images/uploads/img_1326.jpg",
+        "/images/uploads/img_1327.jpg",
+        "/images/uploads/img_1328.jpg"
       ],
       "name": "Coral Fleece Bath Towel",
       "category": "Bath Towels",
       "description": "Highly absorbent and available in a variety of colors and GSM options to meet different needs and preferences.",
       "moq": "500",
       "gsm": ""
+    },
+    {
+      "status": "active",
+      "images": [
+        "/images/uploads/微信图片_20260915155934_165_14.jpg",
+        "/images/uploads/微信图片_20260912130659_148_14.jpg",
+        "/images/uploads/d81097bc96faf7e911bfe6c899fecd85.jpg",
+        "/images/uploads/img_1323.jpg",
+        "/images/uploads/img_1319.jpg"
+      ],
+      "name": "Striped Coral Fleece Bath Towel",
+      "category": "Bath Towels",
+      "size": "70x140",
+      "gsm": "",
+      "description": "Featuring a stylish striped design for enhanced water absorption and an attractive appearance. Available in a variety of colors and textured patterns, including waffle, wavy, loop, and spiral designs, to suit different preferences.",
+      "moq": "500"
     }
   ]
 }
