@@ -8,7 +8,21 @@
       "moq": "500",
       "images": [
         "/images/uploads/微信图片_20260912125818_146_14.jpg"
-      ]
+      ],
+      "size": "35x75"
+    },
+    {
+      "size": "90x140",
+      "gsm": "",
+      "material": "cotton",
+      "name": "Customizable Cotton Bath Towels",
+      "moq": "500",
+      "status": "active",
+      "images": [
+        "/images/uploads/微信图片_20260915154916_159_14.jpg"
+      ],
+      "description": "Made from 100% cotton, these hotel bath towels offer excellent softness, absorbency, and durability. Customization options include:\nCustom Logo: Personalized logo printing or embroidery.\nCustom Sizes: Available in various sizes and customizable towel sets.\nMultiple GSM Options: Different fabric weights available to meet your needs.",
+      "category": "Bath Towels"
     }
   ]
 }
