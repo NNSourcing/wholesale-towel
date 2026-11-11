@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "status": "active",
+      "name": "Cotton Small  Printed Towel",
+      "category": "Face Towels",
+      "material": "cottoon",
+      "moq": "500",
+      "images": [
+        "/images/uploads/微信图片_20260912125818_146_14.jpg"
+      ]
+    }
+  ]
+}
