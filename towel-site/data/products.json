@@ -23,6 +23,14 @@
       ],
       "description": "Made from 100% cotton, these hotel bath towels offer excellent softness, absorbency, and durability. Customization options include:\nCustom Logo: Personalized logo printing or embroidery.\nCustom Sizes: Available in various sizes and customizable towel sets.\nMultiple GSM Options: Different fabric weights available to meet your needs.",
       "category": "Bath Towels"
+    },
+    {
+      "status": "active",
+      "name": "f",
+      "category": "Beach Towels",
+      "images": [
+        "/images/uploads/be5f659da6a17e6595f4182604b4d884.jpg"
+      ]
     }
   ]
 }
