@@ -6,7 +6,7 @@ backend:
 locale: zh_Hans
 publish_mode: simple
 
-media_folder: images/uploads
+media_folder: towel-site/images/uploads
 public_folder: /images/uploads
 
 collections:
@@ -15,7 +15,7 @@ collections:
     files:
       - name: products
         label: 商品列表
-        file: data/products.json
+        file: towel-site/data/products.json
         fields:
           - label: 商品
             label_singular: 商品
