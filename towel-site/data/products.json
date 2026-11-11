@@ -11,6 +11,20 @@
       "images": [
         "/images/uploads/微信图片_20260915154916_159_14.jpg"
       ]
+    },
+    {
+      "status": "active",
+      "name": "Cotton Small Printed Towel",
+      "category": "Face Towels",
+      "size": "35x75",
+      "gsm": 120,
+      "description": "Available in a wide range of attractive printed patterns, this small-sized cotton towel is suitable for various applications and everyday uses.",
+      "moq": "1000",
+      "images": [
+        "/images/uploads/微信图片_20260912125818_146_14.jpg",
+        "/images/uploads/fe2a50252b266a0cb49392d83458fbfb.jpg",
+        "/images/uploads/be5f659da6a17e6595f4182604b4d884.jpg"
+      ]
     }
   ]
 }
