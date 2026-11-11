@@ -2,34 +2,14 @@
   "products": [
     {
       "status": "active",
-      "name": "Cotton Small  Printed Towel",
-      "category": "Face Towels",
-      "material": "cottoon",
-      "moq": "500",
-      "images": [
-        "/images/uploads/微信图片_20260912125818_146_14.jpg"
-      ],
-      "size": "35x75"
-    },
-    {
-      "size": "90x140",
-      "gsm": "",
-      "material": "cotton",
+      "description": "Made from 100% cotton, these hotel bath towels offer excellent softness, absorbency, and durability. Customization options include: Custom Logo: Personalized logo printing or embroidery. Custom Sizes: Available in various sizes and customizable towel sets. Multiple GSM Options: Different fabric weights available to meet your needs",
+      "size": "70x140",
+      "material": "Cotton",
+      "category": "Bath Towels",
       "name": "Customizable Cotton Bath Towels",
       "moq": "500",
-      "status": "active",
       "images": [
         "/images/uploads/微信图片_20260915154916_159_14.jpg"
-      ],
-      "description": "Made from 100% cotton, these hotel bath towels offer excellent softness, absorbency, and durability. Customization options include:\nCustom Logo: Personalized logo printing or embroidery.\nCustom Sizes: Available in various sizes and customizable towel sets.\nMultiple GSM Options: Different fabric weights available to meet your needs.",
-      "category": "Bath Towels"
-    },
-    {
-      "status": "active",
-      "name": "f",
-      "category": "Beach Towels",
-      "images": [
-        "/images/uploads/be5f659da6a17e6595f4182604b4d884.jpg"
       ]
     }
   ]
