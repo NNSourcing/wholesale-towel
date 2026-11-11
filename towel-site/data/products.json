@@ -23,8 +23,25 @@
       "images": [
         "/images/uploads/微信图片_20260912125818_146_14.jpg",
         "/images/uploads/fe2a50252b266a0cb49392d83458fbfb.jpg",
-        "/images/uploads/be5f659da6a17e6595f4182604b4d884.jpg"
+        "/images/uploads/be5f659da6a17e6595f4182604b4d884.jpg",
+        "/images/uploads/b99b820a426cc7dfeb7460c10a8276dc.jpg",
+        "/images/uploads/1.jpg",
+        "/images/uploads/98bb86938294a00b542f43cd5fffa2.jpg",
+        "/images/uploads/319022a6efedec287bd45da39d83cd-2.jpg",
+        "/images/uploads/5d25afdb2d351ca3304b1598186d2c.jpg",
+        "/images/uploads/b357998dc1dffdfac7df9ad2c61177.jpg"
       ]
+    },
+    {
+      "status": "active",
+      "images": [
+        "/images/uploads/微信图片_20260912123813_145_14.jpg"
+      ],
+      "name": "Coral Fleece Bath Towel",
+      "category": "Bath Towels",
+      "description": "Highly absorbent and available in a variety of colors and GSM options to meet different needs and preferences.",
+      "moq": "500",
+      "gsm": ""
     }
   ]
 }
