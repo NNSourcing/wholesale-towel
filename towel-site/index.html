@@ -32,6 +32,7 @@ header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px s
 .btn{display:inline-block;background:var(--blue);color:var(--on-blue);padding:11px 22px;border-radius:8px;font-weight:600;border:0;cursor:pointer;font-size:15px;text-align:center}
 .btn:hover{background:var(--blue-dark)}
 .btn.ghost{background:transparent;color:var(--blue);border:1.5px solid var(--blue)}
+.nav-btn{margin-left:12px;padding:8px 16px;font-size:14px}
 
 .hero{background:var(--surface);border-bottom:1px solid var(--line)}
 .hero .wrap{padding-top:48px;padding-bottom:48px;display:grid;gap:28px;grid-template-columns:1.2fr 1fr;align-items:center}
@@ -88,7 +89,7 @@ footer{padding:20px 0;text-align:center;color:var(--muted);font-size:13px}
 
 @media(max-width:720px){
   .hero .wrap{grid-template-columns:1fr}
-  .nav a.link{display:none}
+  .nav a.link,.nav .hide-sm{display:none}
 }
 </style>
 </head>
@@ -100,7 +101,8 @@ footer{padding:20px 0;text-align:center;color:var(--muted);font-size:13px}
     <nav>
       <a class="link" href="#products">Products</a>
       <a class="link" href="#why">Why us</a>
-      <a class="btn" style="margin-left:18px;padding:8px 16px;font-size:14px" href="#contact">Get a quote</a>
+      <a class="btn ghost nav-btn hide-sm" href="#contact">Get a quote</a>
+      <a class="btn nav-btn" href="inquiry.html">Request Inquiry</a>
     </nav>
   </div>
 </header>
@@ -165,8 +167,8 @@ footer{padding:20px 0;text-align:center;color:var(--muted);font-size:13px}
 
 <script>
 /* ---- Edit your contact details here ---- */
-const EMAIL = "wangyuening603@gmail.com";
-const WHATSAPP = "+86 18301532515";
+const EMAIL = "sales@example.com";
+const WHATSAPP = "+86 138 0000 0000";
 /* Products are NOT written here. They are loaded from data/products.json,
    which you edit in the /admin dashboard. */
 
@@ -270,7 +272,7 @@ function card(p){
   info.appendChild(price);
 
   const q = el("a", "btn", "Request quote");
-  q.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("Inquiry: " + p.name);
+  q.href = "inquiry.html?product=" + encodeURIComponent(p.name);
   info.appendChild(q);
 
   c.appendChild(info);
