@@ -1,0 +1,79 @@
+SOURCELENS 网站设计与开发口令（中文检查版）
+
+为 SourceLens 构建一个完整、响应式、可部署的静态网站。SourceLens 是一个早期项目，为从中国采购的海外买家提供独立供应商核查、产品研究和采购支持。交付 HTML/CSS/JavaScript 项目，适合上传到 GitHub 并通过 Netlify 静态托管。避免模板化 SaaS / 后台仪表盘风格、普通企业模板、过度卡片、渐变、阴影和装饰。每个页面都必须有实际内容、可用导航、可工作的交互以及移动端适配。
+
+品牌与视觉系统
+- 品牌名：SOURCELENS；品牌语：A clearer view of sourcing；定位语：Independent. Evidence-led. Transparent.
+- 配色：主强调蓝 #2563EB，近黑 #111111，白 #FFFFFF，浅灰 #F2F2F0，次级文字 #666666。所有红色强调都替换为蓝色。蓝色是视觉信号，不应铺满整页：用于Logo细节、CTA按钮、悬停、链接、章节编号、重点词、状态标签和数据高亮。
+- 字体：Space Grotesk用于标题与品牌；Inter用于正文、导航、表单和按钮；IBM Plex Mono用于章节标签、案例编号、状态、日期和技术信息。通过Google Fonts加载。
+- 风格：编辑式排版 + 瑞士网格 + 调查/纪实档案感。干净、克制、精心设计、专业但有人味。留白充足，细分隔线，有目的的不对称，网格对齐，清晰字号层级，圆角克制，过渡动画轻微。不要所有元素都粗边框，不要过度圆角的App卡片。
+- 图片风格：纪实观察感，纺织/面料细节、毛巾生产、机器、样品测量、工厂、仓储、文件、研究桌等。自然光、低饱和、偏中性或黑白。不要握手、穿西装的商务人士、泛化会议照片。图片作为编辑式叙事/现场感，不是纯装饰。缺少图片时使用精致的本地SVG或CSS图形，不能出现失效图片。
+
+
+将以下文字排版参考转化为页面布局（请直接复刻其构图特点）
+A. 黑色Intro欢迎页：全屏黑色或近黑背景。左侧大字号白色品牌字和主标题，留出大量空白。标题上方有小型等宽字体标签；下方为简短两行介绍和一个蓝色矩形Enter按钮，带箭头。可添加非常克制的蓝色细线/光效或技术几何圆形细节。底部左右各有极小的等宽字体标记。入口页不放服务卡片、不做复杂导航、不堆内容。感觉像编辑式刊物封面、研究档案入口，安静、有自信。
+B. 首页Hero：白色画布。大黑标题有明确断行，使用Space Grotesk；某个词或短语以蓝色强调。左侧简介与两个清晰CTA，右侧放大矩形纪实照片/图片区域，轻微压暗，叠加细网格和小型等宽图注/编号。构图不对称但平衡，边距宽裕。不要做成普通居中模板式Landing Page。
+C. Services服务页：白底，清晰标题和简短介绍。桌面端四个服务模块使用2列编辑式网格；移动端变成单列。每个模块有等宽字体编号/标签、大标题、简短描述、箭头，可选纪实图片。边框/分隔线尽量轻。悬停时轻微上浮或边框/链接变蓝。每个模块必须打开独立详情页。
+D. Process流程页：四步骤横向时间线或四个对齐栏目。顶部细黑线，蓝色等宽步骤编号，简短标题和说明。平板/手机端改为纵向或两列布局。不要巨大的图标或粗厚彩色进度条。
+E. Evidence证据页：采用编辑式报告/记录排版。用样例报告预览，字段、细线、等宽状态标签、测量数据和观察记录清晰分隔。证据类别可用四列或编辑式模块展示。样例报告应像研究记录，而不是后台仪表盘。状态标签包括 Confirmed、Measured、Supplier Stated、Document Reviewed、Unverified、Not Checked。解释核查范围；不得虚称实验室检测或认证。
+F. Case Files案例档案：将它设计成案例/研究档案，而非普通博客。卡片显示案例ID、等宽分类、醒目标题、简短介绍和Read Case入口。使用安静的编辑式网格和纪实图片/图形缩略图。详情结构为 Overview → Buyer Question → Investigation Scope → Evidence → Findings → Limitations → Conclusion。明确标注示范/假设案例，不要虚构真实客户项目。
+
+
+网站结构与导航
+网站包含 Home、Services、Process、Evidence、Case Files、About、Start a Check。适当使用固定/吸顶导航。导航标签：Services / Process / Evidence / Case Files / About / Start a Check。Logo点击返回Intro或首页。Intro的Enter按钮进入Home。CTA打开咨询表。Services卡片打开服务详情页。Case Files卡片打开案例详情。移动端导航必须能正常打开/关闭。过渡动画克制，不得因动画拖延页面跳转。
+
+
+内容要求
+HOME首页：
+小标签：INDEPENDENT SOURCING VERIFICATION · CHINA
+标题：Independent. Evidence-led. Transparent.
+介绍：We help international buyers verify suppliers, assess products and understand sourcing risks in China.
+按钮：Start a Check；Learn About Us。
+“What We Do”标题：A clearer picture of your supplier.
+文案：We provide independent sourcing verification and product research support in China—helping buyers review supplier information, check product samples, observe factory conditions and compare sourcing options.
+四项能力：Supplier information / Physical product checks / Factory observations / Sourcing comparisons。
+“Why SourceLens”四个原则：Independent（以买家为中心、明确范围）；Evidence-led（适用时以文件、测量、观察和记录支持）；Transparent（说明发现、来源、限制及未核实内容）；China-based（为远程采购问题提供当地执行支持）。
+“Explore SourceLens”模块：Services、Process、Evidence、Case Files，各有简短说明和链接。
+结尾CTA：Have a supplier in mind? / Tell us what you're sourcing and what you'd like to verify. / Start a Check。
+
+SERVICES服务：
+标题：What we can check.
+介绍：Practical verification services to help you understand suppliers, products and sourcing options before placing an order.
+四项服务及详情页：
+1. Supplier Verification：核查供应商身份、商业信息、文件和关键声明。
+2. Sample Testing：检查产品尺寸、重量、外观和指定规格。明确普通样品/物理检查与需单独安排的认可实验室检测不是同一回事。
+3. Factory Visit：观察厂区、设备、生产环境和现场相关细节。明确现场访问不等于认证或保证。
+4. Supplier Comparison：比较报价、规格、MOQ、产品细节和采购方案。
+每个服务详情页都必须包含：服务是什么？买家何时需要？检查哪些项目？如何执行？买家会获得什么？范围和限制。搭配图片/视觉模块、CTA和返回服务页链接。
+
+PROCESS流程：
+标题：From request to evidence.
+介绍：A straightforward process designed around your sourcing needs.
+四步骤：01 Submit Your Request（产品、供应商、想了解的问题）；02 Define the Scope（确认检查范围、方法、时间和报价）；03 Conduct the Check（执行约定的核查、检查、研究或比较）；04 Receive Your Report（记录发现、证据和已确认事项）。加入简洁FAQ。
+
+EVIDENCE证据：
+标题：Every finding has a source.
+介绍：We present findings with supporting records, observations and clearly defined verification boundaries.
+四类：Product Evidence（实物、测量、样品、规格）；Document Evidence（公开记录、商业文件、支持信息）；On-site Evidence（工厂照片、观察、设备、现场情况）；Data Evidence（报价、规格、MOQ和对比记录）。
+报告样例字段：Item: Cotton towel；Dimensions: Measured；Weight: Measured；Material: Supplier stated / Lab tested（准确区分）；Source: Supplier listing；Status: Reviewed / Not verified / Confirmed；Finding: 实际发现；Limitations: 核查范围。所有示范记录明确标注为演示，不是真实检查结果。解释状态标签：Confirmed、Measured、Supplier Stated、Document Reviewed、Unverified、Not Checked。
+
+CASE FILES案例档案：
+标题：Research. Findings. Perspective.
+介绍：Explore sourcing research and case-based insights that reveal what buyers should look beyond.
+分类可用：Supplier Research、Product Research、Price Comparison、Sample Inspection、Market Insights。提供示范档案和详情模板：Overview → Buyer Question → Investigation Scope → Evidence → Findings → Limitations → Conclusion。明确示范内容不是实际客户项目。
+
+ABOUT关于：
+标题：A buyer’s perspective, on the ground in China.
+介绍SourceLens的初衷、早期项目状态、以买家为中心的服务定位、中国本地执行理念与工作原则。仅在真实实行时描述独立政策。说明可以/不可以核实的内容。不得虚构资质、团队规模、客户、完成项目、认证、认可实验室检测能力或保证。原则：明确范围、证据驱动、透明说明限制、买家导向。
+
+START A CHECK咨询表：
+字段：Product name；Product link；Supplier name；Supplier link；Requested service（Supplier Verification / Sample Testing / Factory Visit / Supplier Comparison / Other）；Purchase quantity（可选）；Main concerns（Price / Quality / Authenticity / Production capability / Other）；Additional details；Contact name；Company；Country；Email。表单简洁、适合手机、包含验证。明确数据是否被保存或发送。若未连接后台，使用mailto草稿或说明演示行为；不得假称已经收到用户提交。
+
+
+技术与交付
+- 交付可运行静态网站，HTML/CSS/JavaScript结构清楚，适配桌面/平板/手机。
+- 页面内容完整、组件可复用、导航与CTA有效、表单验证和演示/后台限制说明清楚。
+- 不允许图片失效、按钮无功能、占位内容或空白页面。
+- 包含Netlify配置和README，说明如何连接GitHub仓库及部署Netlify。
+- 项目应尽量不需要构建步骤即可部署（如有构建步骤需清楚说明）。尽可能使用本地资源；如依赖外部图片或字体，注明依赖。
+- 最终网站整体感受：独立核查品牌、编辑式白底、黑色结构、蓝色信号、精确字体、纪实视觉、有意义的信息架构和证据导向叙事。

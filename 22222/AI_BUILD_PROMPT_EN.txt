@@ -1,0 +1,82 @@
+SOURCELENS WEBSITE — DESIGN & BUILD BRIEF
+
+Build a complete, responsive, deployable static website for SourceLens, an early-stage independent sourcing-verification and product-research support project for overseas buyers sourcing from China. Deliver a clean HTML/CSS/JavaScript project suitable for GitHub and Netlify static hosting. Avoid generic SaaS/dashboard styling, generic corporate stock-template design, excessive cards, gradients, shadows, and decorative clutter. Every page must have real content, working navigation, functional actions, and mobile-responsive behavior.
+
+
+BRAND AND VISUAL SYSTEM
+- Brand name: SOURCELENS.
+- Brand line: “A clearer view of sourcing.”
+- Positioning: “Independent. Evidence-led. Transparent.”
+- Use a restrained palette: cobalt blue #2563EB as the primary accent; near-black #111111; white #FFFFFF; light gray #F2F2F0; secondary text #666666. Replace red accents with blue. Blue is a signal color, not a full-page fill: use it for logo details, CTA buttons, hover states, links, section numbers, selected words, status labels and data highlights.
+- Typography: Space Grotesk for display headings and brand; Inter for body text, navigation, forms and buttons; IBM Plex Mono for section labels, case IDs, status tags, dates and technical metadata. Import from Google Fonts.
+- Visual character: editorial layout + Swiss grid + investigative/documentary archive. Clean, minimal, carefully art-directed, confident and human. Use generous whitespace, thin dividers, purposeful asymmetry, aligned grids, strong typographic hierarchy, subtle sharp corners and understated transitions. Do not use thick borders around every element or overly rounded “app” cards.
+- Photography should feel documentary and observational: textile/fabric close-ups, towel production, machinery, sample measuring, factory floors, warehouse shelves, paperwork and research desks. Prefer neutral, natural-light, muted or monochrome imagery. Avoid handshake, suited executives, generic corporate meeting imagery. Use images as editorial evidence/atmosphere rather than decoration. If image assets are unavailable, create tasteful local SVG or CSS graphic compositions and do not leave broken image placeholders.
+
+
+TEXTUAL LAYOUT REFERENCES (RECREATE THESE COMPOSITIONS)
+A. INTRO / WELCOME SCREEN: Full viewport, near-black background. Large white brand wordmark and oversized headline aligned to the left with substantial empty space. A small mono eyebrow above the title, concise two-line introduction, one cobalt rectangular Enter button with arrow. Add a very restrained thin cobalt line or light accent and subtle geometric/radial technical detail. Tiny mono footer labels at bottom left/right. No service cards, complex navigation, or busy content on this entry screen. Mood: editorial title page / research archive / quiet confidence.
+B. HOMEPAGE HERO: White canvas. Large black heading with deliberate line breaks and Space Grotesk; blue accent word or phrase. Intro copy and two clear CTA buttons on the left. On the right, a large rectangular documentary image or image panel, darkened subtly, with fine grid overlay and small mono caption/index. Asymmetrical but balanced; generous margins. Do not make the hero look like a generic centered landing-page template.
+C. SERVICES OVERVIEW: White background, clear section heading and concise intro. Four service modules arranged in a clean 2-column editorial grid on desktop (responsive to one column on mobile). Each module uses a mono index/label, large heading, short description, arrow affordance and optionally documentary imagery. Minimal borders/dividers. Hover should subtly lift or turn the border/link blue. Each module must lead to its own detailed page.
+D. PROCESS PAGE: A four-step horizontal timeline or four aligned columns with thin black top rule, blue step number in mono font, short bold heading and concise description. On tablet/mobile stack into a vertical or 2-column arrangement. Avoid oversized illustrated icons or thick colorful progress bars.
+E. EVIDENCE PAGE: Editorial report-like layout. Use a sample report preview with clearly separated fields, thin lines, mono status labels, measurements and observations. Arrange evidence categories as four simple columns or editorial blocks. The report sample should look like a research record—not a dashboard. Include statuses such as Confirmed, Measured, Supplier Stated, Document Reviewed, Unverified and Not Checked. Explain the boundaries of verification; never imply accredited lab testing or formal certification unless actually performed.
+F. CASE FILES ARCHIVE: Treat as a case/research archive, not a blog feed. Cards should have case ID, mono category, strong title, short summary and “Read Case” affordance. Use a quiet editorial grid and documentary imagery/graphic thumbnails. Detail pages follow Overview → Buyer Question → Investigation Scope → Evidence → Findings → Limitations → Conclusion. Clearly label demonstration/hypothetical cases; never invent completed client work.
+
+
+SITE STRUCTURE AND NAVIGATION
+Create the following pages/sections: Home, Services, Process, Evidence, Case Files, About, Start a Check. Sticky or fixed header where appropriate. Navigation labels: Services / Process / Evidence / Case Files / About / Start a Check. Logo click returns to the intro screen or home as appropriate. Intro Enter button opens Home. CTA links open the inquiry form. Services overview cards open detailed service pages. Case archive cards open individual case details. Mobile navigation must open/close and be usable. Keep transitions subtle and avoid animation that delays navigation.
+
+
+CONTENT REQUIREMENTS
+HOME:
+Eyebrow: “INDEPENDENT SOURCING VERIFICATION · CHINA”
+Headline: “Independent. Evidence-led. Transparent.”
+Intro: “We help international buyers verify suppliers, assess products and understand sourcing risks in China.”
+Buttons: “Start a Check” and “Learn About Us.”
+“What We Do” heading: “A clearer picture of your supplier.”
+Copy: “We provide independent sourcing verification and product research support in China—helping buyers review supplier information, check product samples, observe factory conditions and compare sourcing options.”
+Four indicators: Supplier information / Physical product checks / Factory observations / Sourcing comparisons.
+“Why SourceLens” principles: Independent (buyer-focused, defined scope); Evidence-led (documents, measurements, observations and records where applicable); Transparent (findings, sources, limitations and what remains unverified); China-based (local execution for remote buyer challenges).
+“Explore SourceLens” modules: Services, Process, Evidence, Case Files, each with short copy and link.
+Closing CTA: “Have a supplier in mind?” / “Tell us what you're sourcing and what you'd like to verify.” / “Start a Check.”
+
+SERVICES:
+Title: “What we can check.”
+Intro: “Practical verification services to help you understand suppliers, products and sourcing options before placing an order.”
+Four services, each with a detailed service page:
+1. Supplier Verification — review supplier identity, business information, documentation and key claims.
+2. Sample Testing — check product dimensions, weight, appearance and selected specifications. Clarify this means basic physical/sample checks unless an accredited lab test is separately arranged.
+3. Factory Visit — observe premises, equipment, production conditions and relevant on-site details. Clearly state that a visit is not a certification or guarantee.
+4. Supplier Comparison — compare quotations, specifications, MOQ, product details and sourcing options.
+Every service detail page must include: What is this service? When do buyers need it? What do we check? How do we conduct the check? What will the buyer receive? Scope and limitations. Include images/visual panels, CTA and return-to-services link.
+
+PROCESS:
+Headline: “From request to evidence.”
+Intro: “A straightforward process designed around your sourcing needs.”
+Steps: 01 Submit Your Request (what you’re sourcing, supplier, questions); 02 Define the Scope (confirm checks, method, timeline, quotation); 03 Conduct the Check (perform agreed verification, inspection, research or comparison); 04 Receive Your Report (document findings, evidence and what was confirmed). Add concise FAQs.
+
+EVIDENCE:
+Headline: “Every finding has a source.”
+Intro: “We present findings with supporting records, observations and clearly defined verification boundaries.”
+Categories: Product Evidence (physical products, measurements, sample checks, specs); Document Evidence (public records, business documents, supporting information); On-site Evidence (factory photos, observations, equipment, site conditions); Data Evidence (quotations, specifications, MOQ, comparison records).
+Include sample report fields: Item: Cotton towel; Dimensions: Measured; Weight: Measured; Material: Supplier stated / Lab tested (distinguish precisely); Source: Supplier listing; Status: Reviewed / Not verified / Confirmed; Finding: actual finding; Limitations: scope. Mark sample/demo records clearly as illustrative, not actual inspection results. Status definitions: Confirmed, Measured, Supplier Stated, Document Reviewed, Unverified, Not Checked.
+
+CASE FILES:
+Headline: “Research. Findings. Perspective.”
+Intro: “Explore sourcing research and case-based insights that reveal what buyers should look beyond.”
+Possible categories: Supplier Research, Product Research, Price Comparison, Sample Inspection, Market Insights. Provide sample archive entries and detail template: Overview → Buyer Question → Investigation Scope → Evidence → Findings → Limitations → Conclusion. Clearly mark examples as demonstration research and not completed client projects.
+
+ABOUT:
+Headline: “A buyer’s perspective, on the ground in China.”
+Explain why SourceLens exists, its early-stage nature, buyer-oriented purpose, China-based local execution concept and working principles. Include independence policy only if truthful and operationally adopted; explain what can/cannot be verified. Do not fabricate credentials, team size, clients, completed projects, certifications, accredited testing or guarantees. Principles: clear scope, evidence-based findings, transparent limitations, buyer focus.
+
+START A CHECK:
+Inquiry form fields: Product name; Product link; Supplier name; Supplier link; Requested service (Supplier Verification / Sample Testing / Factory Visit / Supplier Comparison / Other); Purchase quantity (optional); Main concerns (Price / Quality / Authenticity / Production capability / Other); Additional details; Contact name; Company; Country; Email. Easy to complete, mobile-friendly and validated. Clearly disclose whether form data is stored or transmitted. If no backend is connected, use a mailto draft or explain demo behavior; do not pretend submissions are received.
+
+
+TECHNICAL / DELIVERY
+- Deliver a working static website with organized HTML, CSS and JavaScript, responsive for desktop/tablet/mobile.
+- Include all pages/content, reusable components, assets, functioning navigation and CTAs, form validation and clear demo/backend limitations.
+- Avoid broken image paths, dead buttons, filler text and placeholder pages.
+- Include Netlify configuration and README with deployment instructions for GitHub repository connection and Netlify.
+- The project must be deployable without a build step (unless a build step is clearly documented). Keep assets local when feasible. If using external images or fonts, note the dependency.
+- The final result should feel like an independent editorial verification brand: white page, black structure, cobalt signals, precise typography, documentary visuals, meaningful information architecture and evidence-first storytelling.
